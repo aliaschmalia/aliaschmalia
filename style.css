@@ -1,0 +1,45 @@
+/*GENERAL*/
+
+body {
+	font-family: "Noto Sans";
+}
+
+p {
+	font-size: 11pt;
+	color: grey;
+}
+
+h1 {
+	color: lightgrey;
+}
+
+h4 {
+	font-weight: bolder;
+	color: grey;
+}
+
+blockquote {
+	color: grey;
+	font-size: 1.5rem!important;
+}
+
+footer {
+	font-size: 7pt;
+	color: grey;
+}
+.row img {
+	width: 100%;
+}
+
+/*FORM*/
+
+/*NAVBAR*/
+
+#search {
+	background-color: transparent;
+}
+
+.form-control {
+	font-size: 0.75rem;
+}
+
