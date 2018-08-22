@@ -1,0 +1,445 @@
+* {
+	font-family: Josefin Slab;
+	color: #585040;
+}
+
+a {
+	color: #585040;
+}
+
+/*________________________________HEADER________________________________*/
+
+#index>div.header,
+#about,
+#games {
+	min-height: 100vh;
+}
+
+
+#index>div.header,
+	#hire,
+	#about,
+	#games {
+	min-height: 100vh;
+	background-color: #ffffff;
+	background-image: url("img/grey-twill.png");
+	background-attachment: fixed;
+}
+
+a.navbar-brand img {
+		width: 100% !important;
+	}
+
+.btn-arrow img {
+	width: 21px !important;
+}
+
+.navbar {
+	background-color: transparent !important;
+	border: none;
+}
+
+.navbar-right li {
+	font-size: 16pt;
+	font-weight: 700;
+	text-transform: lowercase;
+}
+
+.container div.jumbotron {
+	background-color: transparent;
+	padding-left: 0;
+	margin-top: 15%;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #585040;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #11100c;
+}
+
+.navbar-default .navbar-nav>li>a.active {
+    color: #11100c;
+    border-bottom: 2.5px solid #11100c;
+}
+
+/*________________________________HAMBURGER________________________________*/
+
+.navbar-default .navbar-toggle {
+	border: none;
+	background-color: transparent !important;
+}
+
+.top-bun {
+    border: 3.5px solid #585040;
+}
+
+.patty {
+    border: 2px solid #585040;
+}
+
+.bottom-bun {
+    border: 1.5px solid #585040;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar {
+    border-color: rgb(60,50,61);
+}
+
+.navbar-collapse {
+  	text-align: right;
+ 	border-top: none;
+}
+
+/*________________________________ABOUT & CONTACT________________________________*/
+
+
+
+.about {
+	margin-top: 10rem;
+}
+.about h1 {
+	font-weight: bold;
+	font-size: 30pt;
+}
+
+.about p, label{
+	font-size: 20pt;
+	line-height: 22pt;
+	padding-bottom: 5pt;
+	font-weight: bold;
+}
+
+.about h1 span {
+	font-weight: normal;
+}
+
+.about strong {
+	color: #11100c;
+}
+
+.about strong:hover {
+	text-decoration: underline overline;
+	color: #11100c;
+}
+
+#contact {
+	font-weight: bold;
+	font-size: 20pt;
+	color: #585040;
+	margin-top: 2rem;
+}
+
+.btn {
+	font-size: 15pt;
+	font-weight: bold;
+}
+
+
+/*________________________________ABOUT & CONTACT________________________________*/
+
+
+
+.games {
+	margin-top: 10rem;
+}
+.games h1 {
+	font-weight: bold;
+	font-size: 30pt;
+}
+
+.games p, label{
+	font-size: 20pt;
+	line-height: 22pt;
+	padding-bottom: 5pt;
+	font-weight: bold;
+}
+
+.games h1 span {
+	font-weight: normal;
+}
+
+.games strong {
+	color: #11100c;
+}
+
+.games strong:hover {
+	text-decoration: underline overline;
+	color: #11100c;
+}
+
+
+/*________________________________WORKS PREVIEW________________________________*/
+
+#works span {
+	font-weight: bold;
+	font-size: 20pt;
+}
+
+#works {
+	background-color: white;
+	padding: 4rem 0;
+}
+
+.works-preview div.box {
+	padding: 0;
+}
+
+.works-preview div.box img {
+	width: 100%;
+}
+
+.btn-up {
+	display: inline-block;
+	margin-top: 20px;
+}
+
+/*________________________________WORKS PREVIEW EFFECT________________________________*/
+
+.works {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(255,255,255,.85);
+}
+
+.works:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #585040;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/*________________________________PORTFOLIO________________________________*/
+
+.portfolio {
+	margin-top: 4em;
+}
+
+.portfolio img {
+	width: 100%;
+	margin-bottom: 4em;
+}
+
+.portfolio h3 {
+	font-weight: 700;
+}
+
+.portfolio h4 {
+	text-transform: lowercase;
+	font-weight: bold;
+}
+
+.portfolio p {
+	font-size: 14pt;
+	font-weight: 500;
+}
+
+.portfolio .row:nth-child(n+3) img {
+	width: 80%;
+}
+
+.portfolio a {
+	font-weight: bold;
+	font-size: 10pt;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #585040;
+}
+
+.portfolio a:hover {
+	color: rgb(60,50,61);
+}
+
+/*________________________________FOOTER/CONTACT________________________________*/
+
+.footer h1{
+	color:#585040;
+}
+
+#index hr,
+#portfolio hr {
+	border: 2.5px solid #585040;
+	width: 85%;
+	margin-top: 10rem;
+	margin-bottom: 5rem;
+}
+
+.footer {
+	background-color: white;
+}
+
+.footer>.container {
+	
+	padding: 3em;
+}
+
+
+.contact h1 {
+	font-weight: bold;
+	font-size: 30pt;
+}
+
+.contact p {
+	font-size: 18pt;
+	font-weight: 600;
+	margin-bottom: 3rem;
+}
+
+.contact img {
+	margin-right: 7px;
+}
+
+#location {
+	margin-top: 2em;
+}
+
+#location p {
+	font-size: 11pt;
+}
+
+#talk {
+	font-weight: bold;
+	font-size: 20pt;
+	color: #585040;
+	border: 2px solid #585040;
+	margin-top: 2rem;
+	margin-bottom: 5rem;
+	border-radius: 0;
+}
+
+#talk:hover {
+	background-color: white;
+	border-color: #11100c;
+	color: #11100c;
+}
+/*________________________________COPYRIGHT________________________________/*/
+
+#copyright {
+	padding-top: 8rem;
+	font-size: 10pt;
+	padding-bottom: 5rem;
+}
+
+
+/*________________________________MEDIA QUERY________________________________*/
+
+@media (max-width: 600px) {
+
+	.navbar-default .navbar-nav>li>a.active {
+    border-bottom: none;
+	}
+
+	.about h1,
+	.games h1 {
+	font-weight: bold;
+	font-size: 21pt;
+	}
+
+	.about p,
+	.games p {
+	font-size: 15pt;
+	font-weight: bold;
+	line-height: 2.2rem;
+	}
+
+	.about,
+	.games,
+	.jumbotron h1 {
+	margin-top: 0;
+	}
+	
+	.footer img {
+	margin-right: 0;
+	}
+
+	#copyright {
+	display: none;
+	}
+
+	.jumbotron h1 {
+	font-weight: bold;
+	font-size: 33pt;
+	}
+
+	#btn-up {
+		text-align: center;
+		margin-bottom: 3rem;
+	}
+
+	.portfolio .row:nth-child(n+3) img {
+		width: 100%;
+	}
+
+	.portfolio p {
+		font-size: 14pt;
+		font-weight: 500;
+		padding-bottom: 2em;
+	}
+
+	.portfolio img {
+		width: 100%;
+		margin-bottom: 1em;
+	}
+
+	#talk {
+		margin-bottom: 7rem;
+	}
+
+
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+
+	.jumbotron h1 {
+	font-size: 40pt;
+	}
+
+	#copyright {
+	display: none;
+	}
+
+	div.row.contact {
+	margin-bottom: 5rem;
+	}
+
+	.portfolio .row:nth-child(n+3) img {
+	width: 100%;
+	}
+
+	.portfolio p {
+		padding-bottom: 4em;
+	}
+
+	.portfolio img {
+		width: 100%;
+		margin-bottom: 2em;
+	}
+} 

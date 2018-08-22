@@ -1,0 +1,32 @@
+body {
+	min-height: 100vh;
+	background-color: #ffffff;
+	background-image: url("../img/grey-twill.png");
+	background-attachment: fixed;
+}
+
+#list-data li {
+	display: inline-block;
+	max-width: 300px;
+}
+
+li img {
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+* {
+	font-family: Josefin Slab;
+	color: #585040;
+	text-align: center;
+}
+
+a {
+	color: #585040;
+}
+
+#four-buttons button {
+	font-size: 13pt;
+	font-weight: bold;
+	padding: 15px;
+}
